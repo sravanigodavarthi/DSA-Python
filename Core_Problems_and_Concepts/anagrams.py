@@ -2,6 +2,7 @@ def anagram(str1,str2):
     if len(str1) != len(str2):
         return False
     else:
+        print(create_dict(str1), create_dict(str2))
         return create_dict(str1) == create_dict(str2)
     
 def create_dict(s):

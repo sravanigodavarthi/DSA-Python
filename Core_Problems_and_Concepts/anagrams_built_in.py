@@ -2,7 +2,8 @@ from collections import Counter
 
 def anagram(str1,str2):
     count = Counter(str1)
-    print(count['e'])
+    print(count)
+    print(Counter(str2))
     return Counter(str1) == Counter(str2)
 
 print(anagram('restful', 'fluster'))
